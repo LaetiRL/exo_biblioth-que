@@ -1,0 +1,38 @@
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.col-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+section div {
+    border: solid 1px rgb(212, 199, 199);
+}
+
+.livre {
+    margin: 5% 8%;
+}
+.livre div {
+    padding: 10px;
+}
+
+span {
+    padding-right: 10px;
+}
+
+.bouton {
+    text-decoration: none;
+    color :black;
+    border: black solid 1px;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 1px 6px;
+    margin-right: 10px;
+    
+}
+.bouton:hover {
+    color: rgb(204, 94, 255);
+    border: rgb(204, 94, 255) solid 1px;
+}
